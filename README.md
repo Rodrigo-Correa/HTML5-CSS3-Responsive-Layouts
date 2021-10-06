@@ -1,17 +1,15 @@
-# HTML5-CSS3-Responsive-Layouts
+# HTML5 and CSS3 Responsive Layouts
 
-HTML5 and CSS3 Responsive Layouts
+**Related URL:**
 
-Related URL:
-
-W3Schools Online Web Tutorials
+W3Schools Online Web Tutorials<br>
 https://www.w3schools.com/
 
-Google fonts
+Google fonts<br>
 https://fonts.google.com/
 
-Font Awesome
+Font Awesome<br>
 https://fontawesome.com/
 
-CSSmatic - Box Shadow CSS Generator
+CSSmatic - Box Shadow CSS Generator<br>
 https://www.cssmatic.com/box-shadow
