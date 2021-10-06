@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, incital-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie-edge">
+		<meta name="description" content="Affordable and professional web design">
+		<meta name="keywords" content="web design, affordable web design">
+		<meta name="author" content="Rodrigo Corrêa">
+
+		<title>HTML5 / CSS3 Responsive Layout - 4 | Services</title>
+
+		<!-- Font Awesome -->
+		<script src="https://kit.fontawesome.com/35be336604.js" crossorigin="anonymous"></script>
+		
+		<!-- Google fonts - Roboto -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+
+		<link rel="stylesheet" href="css/style.css">
+
+	</head>
+
+	<body>
+
+		<header>
+			<div class="container">
+				<div id="branding">
+					<h1><span class="highlight">Web design</span></h1>
+				</div>
+				<nav>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="about.html">About</a></li>
+						<li class="dropdown">
+							<button class="dropbtn">Services</button>
+							<div class="dropdown-content">
+								<a href="Web development.html">Web development</a>
+								<a href="English to Brazilian Portuguese translation.html">English to Brazilian Portuguese translation</a>
+							</div>
+						</li>
+						<li class="current"><a href="contact.html">Contact</a></li>
+						<li class="facebook"><a target="_blank" href="#"><i class="fab fa-facebook-square"></i></a></li>
+						<li class="twitter"><a target="_blank" href="#"><i class="fab fa-twitter-square"></i></a></li>
+						<li class="instagram"><a target="_blank" href="#"><i class="fab fa-instagram-square"></i></a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+
+		<section id="newsletter">
+			<div class="container">
+				<h1>Subscribe To Our Newsletter</h1>
+				<form>
+					<input type="email" placeholder="Enter Email...">
+					<button type="submit" class="button_1">Subscribe</button>
+				</form>
+			</div>
+		</section>
+		
+		<section id="main">
+			<div class="container">
+				<article id="main-col">
+					<h2>Contact</h2>
+					<ul class="contact-content">
+						<li>
+							<i class="fas fa-phone-square footer-icons"></i>
+							<p><a href="tel:999999999999">+99 (99) 9999 9999</a></p>
+						</li>					
+
+						<li>
+							<i class="fas fa-envelope-square footer-icons"></i>
+							<p><a href="mailto:email@contact.com">contact@yourwebsite.com</a></p>
+						</li>
+					</ul>
+					
+					<div class="google-maps">
+						<ul>
+							<li><i class="fas fa-map-marker-alt footer-icons"></i></li>
+							<li><p>Henrique Fiore street, 747 - Vila Fiori, <br>Sorocaba - State of São Paulo, 18076-565, Brazil</p></li>
+						</ul>
+						<div class="map-responsive">
+							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3659.6381117161413!2d-47.47082828502398!3d-23.473514784726508!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c5f54755d9cca5%3A0x9b15e430dad169b2!2sR.%20Henrique%20Fiore%2C%20747%20-%20Vila%20Fiori%2C%20Sorocaba%20-%20SP%2C%2018076-565!5e0!3m2!1sen!2sbr!4v1631650982949!5m2!1sen!2sbr" width="600" height="450" frameborder="0" style="border:0" allowfullscreen loading="lazy"></iframe>
+						</div>
+					</div>
+				</article>
+
+				<aside id="sidebar">
+					<div class="dark">
+						<h3>Get A Quote</h3>
+						<form class="quote">
+							<div>
+								<label>Name</label><br>
+								<input type="text" placeholder="Name">
+							</div>
+							<div>
+								<label>Email</label><br>
+								<input type="email" placeholder="Email Address">
+							</div>
+							<div>
+								<label>Message</label><br>
+								<textarea placeholder="Message"></textarea>
+							</div>
+							<button class="button_1" type="submit">Send</button>
+						</form>
+					</div>
+				</aside>
+			</div>
+		</section>
+
+		<footer>
+			<p>Copyright &copy; 2021 <a href="http://rodrigocorrea.me/" target="_blank">Rodrigo Corrêa</a>. All Rights Reserved.</p>
+		</footer>
+		
+		<!-- Scroll To Top Button -->
+		<button onclick="topFunction()" id="myBtn"><i class="fas fa-arrow-up"></i></button>
+
+		<!-- JavaScript - Scroll To Top Button -->
+		<script>
+			//Get the button
+			var mybutton = document.getElementById("myBtn");
+
+			// When the user scrolls down 20px from the top of the document, show the button
+			window.onscroll = function() {scrollFunction()};
+
+			function scrollFunction() {
+			  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+				mybutton.style.display = "block";
+			  } else {
+				mybutton.style.display = "none";
+			  }
+			}
+
+			// When the user clicks on the button, scroll to the top of the document
+			function topFunction() {
+			  document.body.scrollTop = 0;
+			  document.documentElement.scrollTop = 0;
+			}
+		</script>
+
+	</body>
+
+</html>
