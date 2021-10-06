@@ -1,4 +1,4 @@
-  HTML5 and CSS3 Responsive Layout
+HTML5 and CSS3 Responsive Layout
 
 Related URL:
 
