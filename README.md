@@ -1,6 +1,6 @@
 # HTML5 and CSS3 Responsive Layouts
 
-**Related URL:**
+**Related URL(s):**
 
 W3Schools Online Web Tutorials<br>
 https://www.w3schools.com/
