@@ -10,15 +10,16 @@
 		<meta name="keywords" content="web design, affordable web design">
 		<meta name="author" content="Rodrigo Corrêa">
 
-		<title>HTML5 / CSS3 Responsive Layout - 4</title>
+		<title>HTML5 / CSS3 Responsive Layout - 4 | Services</title>
 
 		<!-- Font Awesome -->
 		<script src="https://kit.fontawesome.com/35be336604.js" crossorigin="anonymous"></script>
-
+		
 		<!-- Google fonts - Roboto -->
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
 
 		<link rel="stylesheet" href="css/style.css">
 
@@ -27,16 +28,14 @@
 	<body>
 
 		<header>
-		
 			<div class="container">
 				<div id="branding">
 					<h1><span class="highlight">Web design</span></h1>
 				</div>
 				<nav>
 					<ul>
-						<li class="current"><a href="index.html">Home</a></li>
+						<li><a href="index.html">Home</a></li>
 						<li><a href="about.html">About</a></li>
-						<li><a href="services.html">Services</a></li>
 						<li class="dropdown">
 							<button class="dropbtn">Services</button>
 							<div class="dropdown-content">
@@ -44,23 +43,15 @@
 								<a href="English to Brazilian Portuguese translation.html">English to Brazilian Portuguese translation</a>
 							</div>
 						</li>
-						<li><a href="contact.html">Contact</a></li>
+						<li class="current"><a href="contact.html">Contact</a></li>
 						<li class="facebook"><a target="_blank" href="#"><i class="fab fa-facebook-square"></i></a></li>
 						<li class="twitter"><a target="_blank" href="#"><i class="fab fa-twitter-square"></i></a></li>
 						<li class="instagram"><a target="_blank" href="#"><i class="fab fa-instagram-square"></i></a></li>
 					</ul>
 				</nav>
 			</div>
-
 		</header>
-		
-		<section id="showcase">
-			<div class="container">
-				<h1>Affordable Professional Web Designer</h1>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec rutrum iaculis ultricies. Nam laoreet tristique erat, ac dapibus felis suscipit eget. Donec vel lacus urna. Curabitur ut dolor tincidunt, feugiat nibh quis, sodales sapien. Aenean facilisis nulla purus, ac laoreet mi sodales sit amet.</p>
-			</div>
-		</section>
-		
+
 		<section id="newsletter">
 			<div class="container">
 				<h1>Subscribe To Our Newsletter</h1>
@@ -70,24 +61,54 @@
 				</form>
 			</div>
 		</section>
-
-		<section id="boxes">
+		
+		<section id="main">
 			<div class="container">
-				<div class="box">
-					<img src="images/HTML5 logo.png">
-					<h3>HTML5 markup</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec rutrum iaculis ultricies. Nam laoreet tristique erat, ac dapibus felis suscipit eget. Donec vel lacus urna. Curabitur ut dolor tincidunt, feugiat nibh quis, sodales sapien. Aenean facilisis nulla purus, ac laoreet mi sodales sit amet.</p>
-				</div>
-				<div class="box">
-					<img src="images/CSS3 logo.png">
-					<h3>CSS Styling</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec rutrum iaculis ultricies. Nam laoreet tristique erat, ac dapibus felis suscipit eget. Donec vel lacus urna. Curabitur ut dolor tincidunt, feugiat nibh quis, sodales sapien. Aenean facilisis nulla purus, ac laoreet mi sodales sit amet.</p>
-				</div>
-				<div class="box">
-					<img src="images/Graphic design.png">
-					<h3>Graphic Design</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec rutrum iaculis ultricies. Nam laoreet tristique erat, ac dapibus felis suscipit eget. Donec vel lacus urna. Curabitur ut dolor tincidunt, feugiat nibh quis, sodales sapien. Aenean facilisis nulla purus, ac laoreet mi sodales sit amet.</p>
-				</div>
+				<article id="main-col">
+					<h2>Contact</h2>
+					<ul class="contact-content">
+						<li>
+							<i class="fas fa-phone-square footer-icons"></i>
+							<p><a href="tel:999999999999">+99 (99) 9999 9999</a></p>
+						</li>					
+
+						<li>
+							<i class="fas fa-envelope-square footer-icons"></i>
+							<p><a href="mailto:email@contact.com">contact@yourwebsite.com</a></p>
+						</li>
+					</ul>
+					
+					<div class="google-maps">
+						<ul>
+							<li><i class="fas fa-map-marker-alt footer-icons"></i></li>
+							<li><p>Henrique Fiore street, 747 - Vila Fiori, <br>Sorocaba - State of São Paulo, 18076-565, Brazil</p></li>
+						</ul>
+						<div class="map-responsive">
+							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3659.6381117161413!2d-47.47082828502398!3d-23.473514784726508!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c5f54755d9cca5%3A0x9b15e430dad169b2!2sR.%20Henrique%20Fiore%2C%20747%20-%20Vila%20Fiori%2C%20Sorocaba%20-%20SP%2C%2018076-565!5e0!3m2!1sen!2sbr!4v1631650982949!5m2!1sen!2sbr" width="600" height="450" frameborder="0" style="border:0" allowfullscreen loading="lazy"></iframe>
+						</div>
+					</div>
+				</article>
+
+				<aside id="sidebar">
+					<div class="dark">
+						<h3>Get A Quote</h3>
+						<form class="quote">
+							<div>
+								<label>Name</label><br>
+								<input type="text" placeholder="Name">
+							</div>
+							<div>
+								<label>Email</label><br>
+								<input type="email" placeholder="Email Address">
+							</div>
+							<div>
+								<label>Message</label><br>
+								<textarea placeholder="Message"></textarea>
+							</div>
+							<button class="button_1" type="submit">Send</button>
+						</form>
+					</div>
+				</aside>
 			</div>
 		</section>
 

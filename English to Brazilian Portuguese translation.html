@@ -10,15 +10,16 @@
 		<meta name="keywords" content="web design, affordable web design">
 		<meta name="author" content="Rodrigo Corrêa">
 
-		<title>HTML5 / CSS3 Responsive Layout - 4</title>
+		<title>HTML5 / CSS3 Responsive Layout - 4 | Services</title>
 
 		<!-- Font Awesome -->
 		<script src="https://kit.fontawesome.com/35be336604.js" crossorigin="anonymous"></script>
-
+		
 		<!-- Google fonts - Roboto -->
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
 
 		<link rel="stylesheet" href="css/style.css">
 
@@ -27,18 +28,16 @@
 	<body>
 
 		<header>
-		
 			<div class="container">
 				<div id="branding">
 					<h1><span class="highlight">Web design</span></h1>
 				</div>
 				<nav>
 					<ul>
-						<li class="current"><a href="index.html">Home</a></li>
+						<li><a href="index.html">Home</a></li>
 						<li><a href="about.html">About</a></li>
-						<li><a href="services.html">Services</a></li>
-						<li class="dropdown">
-							<button class="dropbtn">Services</button>
+						<li class="dropdown ">
+							<button class="dropbtn current"><a href="#">Services</a></button>
 							<div class="dropdown-content">
 								<a href="Web development.html">Web development</a>
 								<a href="English to Brazilian Portuguese translation.html">English to Brazilian Portuguese translation</a>
@@ -51,16 +50,8 @@
 					</ul>
 				</nav>
 			</div>
-
 		</header>
-		
-		<section id="showcase">
-			<div class="container">
-				<h1>Affordable Professional Web Designer</h1>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec rutrum iaculis ultricies. Nam laoreet tristique erat, ac dapibus felis suscipit eget. Donec vel lacus urna. Curabitur ut dolor tincidunt, feugiat nibh quis, sodales sapien. Aenean facilisis nulla purus, ac laoreet mi sodales sit amet.</p>
-			</div>
-		</section>
-		
+
 		<section id="newsletter">
 			<div class="container">
 				<h1>Subscribe To Our Newsletter</h1>
@@ -70,24 +61,40 @@
 				</form>
 			</div>
 		</section>
-
-		<section id="boxes">
+		
+		<section id="main">
 			<div class="container">
-				<div class="box">
-					<img src="images/HTML5 logo.png">
-					<h3>HTML5 markup</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec rutrum iaculis ultricies. Nam laoreet tristique erat, ac dapibus felis suscipit eget. Donec vel lacus urna. Curabitur ut dolor tincidunt, feugiat nibh quis, sodales sapien. Aenean facilisis nulla purus, ac laoreet mi sodales sit amet.</p>
-				</div>
-				<div class="box">
-					<img src="images/CSS3 logo.png">
-					<h3>CSS Styling</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec rutrum iaculis ultricies. Nam laoreet tristique erat, ac dapibus felis suscipit eget. Donec vel lacus urna. Curabitur ut dolor tincidunt, feugiat nibh quis, sodales sapien. Aenean facilisis nulla purus, ac laoreet mi sodales sit amet.</p>
-				</div>
-				<div class="box">
-					<img src="images/Graphic design.png">
-					<h3>Graphic Design</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec rutrum iaculis ultricies. Nam laoreet tristique erat, ac dapibus felis suscipit eget. Donec vel lacus urna. Curabitur ut dolor tincidunt, feugiat nibh quis, sodales sapien. Aenean facilisis nulla purus, ac laoreet mi sodales sit amet.</p>
-				</div>
+				<article id="main-col">
+					<h2>English to Brazilian Portuguese translation</h2>
+					<ul id="services">
+						<li>
+							<h3>English to Brazilian Portuguese translation</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec rutrum iaculis ultricies. Nam laoreet tristique erat, ac dapibus felis suscipit eget. Donec vel lacus urna. Curabitur ut dolor tincidunt, feugiat nibh quis, sodales sapien. Aenean facilisis nulla purus, ac laoreet mi sodales sit amet.</p>
+							<p>Pricing: $1,000 - $3,000</p>
+						</li>
+					</ul>
+				</article>
+
+				<aside id="sidebar">
+					<div class="dark">
+						<h3>Get A Quote</h3>
+						<form class="quote">
+							<div>
+								<label>Name</label><br>
+								<input type="text" placeholder="Name">
+							</div>
+							<div>
+								<label>Email</label><br>
+								<input type="email" placeholder="Email Address">
+							</div>
+							<div>
+								<label>Message</label><br>
+								<textarea placeholder="Message"></textarea>
+							</div>
+							<button class="button_1" type="submit">Send</button>
+						</form>
+					</div>
+				</aside>
 			</div>
 		</section>
 
