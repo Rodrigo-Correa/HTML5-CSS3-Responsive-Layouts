@@ -1,0 +1,550 @@
+
+/* Reset page elements */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* Smooth scroll for internal links using CSS */
+html{
+   scroll-behavior: smooth;
+}
+
+body {
+	font-family: 'Oswald', sans-serif;
+	color: #4d4d4d;
+}
+
+h1 {
+	margin: 0;
+	font-family: 'Oswald', sans-serif;
+	color: #e6e600;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: 42px;
+	letter-spacing: 6px;
+	margin-bottom: 30px;
+}
+
+h2 {
+	font-size: 32px;	
+}
+
+h3 {
+	font-size: 23px;	
+}
+
+a {
+	text-decoration: none;
+	color: #fff;
+}
+
+/* Website logo on the left */
+.logo a {
+	text-decoration: none;	
+	list-style: none;	
+	color: #f1f1f1;
+	font-weight: 700;
+	font-size: 28px;
+	font-family: Pacifico, serif;
+}
+
+/* Nav menu on the right */
+nav {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #4d4d4d;
+	padding: 20px 30px;
+}
+
+nav ul {
+	list-style: none;
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	color: #fff;
+}
+
+nav ul li {
+	text-align: center;
+	text-transform: uppercase;
+	font-family: 'Oswald', sans-serif;
+
+	padding-left: 30px;
+	padding-right: 30px;	
+}
+
+nav ul li a {
+	display: inline-block;
+	
+	/* Responsive menu padding top and left */
+	padding: 10px 0;
+	
+	width: 100%;
+	text-decoration: none;
+	color: #f1f1f1;
+	
+	/* hover effect slower */
+	transition: color 0.3s ease-in-out;	
+}
+
+nav ul li a:hover {
+	color: #e6e600;
+}
+
+/* Social icons displayed inline on mobile */
+nav .social-media-icons {
+	flex-direction: row;
+	justify-content: space-around;
+}
+	
+nav ul .social-media-icons {
+	flex-direction: row;
+	width: 70%;		
+}
+	
+.facebook {
+	display: inline-block;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.twitter {
+	display: inline-block;
+	padding-left: 10px;
+	padding-right: 10px;	
+}
+
+.instagram {
+	display: inline-block;
+	padding-left: 10px;
+	padding-right: 10px;	
+}
+
+.fab {	
+	font-size: 26px;
+}
+
+.fab:hover {
+	/* opacity
+	Tutorial: https://www.w3schools.com/css/css3_gradients.asp */
+	background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.1));
+}
+
+header {
+	/* opacity
+	Tutorial: https://www.w3schools.com/css/css3_gradients.asp */
+	background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.1)), url("../images/banner.png");	
+	
+	background-size: 100% 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	color: #f1f1f1;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	padding: 30px 20px;	
+}
+
+.header-title {
+	font-size: 42px;
+	font-weight: 400;
+}
+
+.header-paragraph {
+	margin-bottom: 2em;	
+}
+
+/* Button */
+.button {
+	color: white;
+	background-color:  #e6e600;
+	
+	/* padding top and bottom, left and right */
+	padding: 10px 20px;
+
+	text-decoration: none;
+	font-size: .9em;
+	text-transform: uppercase;
+	border-radius: 3px;	
+	
+	/* hover effect slower */
+	transition: all 0.3s ease-in-out;	
+}
+
+.button:hover {
+	background-color: #b3b300;
+}
+
+/* About section button */
+#about .button {
+	background-color:#f1f1f1;
+	color: #4d4d4d;
+}
+
+#about .button:hover {
+	background-color:  #b3b3b3;
+}
+
+/* About */
+
+#about {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	padding: 30px 20px;
+	background-color: #e6e600;
+	color: #f1f1f1;
+}
+
+#about h2 {
+	padding-bottom: 20px;
+}
+
+#about p {
+	margin-bottom: 2.5em;
+	max-width: 1000px;
+}
+
+/* Services */
+
+#services {
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border-bottom: 1px solid #4d4d4d;
+	margin: 20px;
+	padding-bottom: 30px;
+}
+
+#services div {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	margin-top: 30px;
+}
+
+.services-icons {
+	font-size: 70px;
+}
+
+/* Portfolio */
+
+#portfolio {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	max-width: 1000px;
+	margin: 20px;
+	padding: 20px 0px;
+	border-bottom: 1px solid #4d4d4d;
+}
+
+#portfolio h2 {
+	margin-bottom: 20px;
+}
+
+#portfolio img {
+	width: 100%;
+	
+}
+
+/* Contact */
+
+#contact {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	padding: 20px;
+}
+
+#contact h2 {
+	padding-bottom: 50px;
+}
+
+#contact p {
+	padding-bottom: 30px;
+}
+
+/* Footer */
+
+footer {
+	text-align: center;
+	padding: 10px;
+	background-color: #4d4d4d;
+	color: #f1f1f1;
+}
+
+.footer-icons {
+	display: inline-block;
+	font-size: 70px;
+	margin-left: 0px;
+}
+
+.google-maps iframe {
+	width: 300px;
+	height: 200px;
+}
+
+.google-maps ul {
+	padding: 20px 0px;
+}
+.google-maps ul li {
+	display: inline-block;
+	text-align: center;
+}
+
+#contact h2,
+#contact p,
+#contact p a {
+	width: 100%;
+	color: #4d4d4d;
+}
+
+#contact p a:hover {
+	color: #e6e600;
+}
+
+.footer-link:hover {
+	color: #e6e600;		
+}
+
+/* Media queries */
+
+@media screen and (min-width: 768px){
+	
+	/* nav */
+	nav {
+		flex-direction: row;
+		justify-content: space-around;
+	}
+	
+	nav ul {
+		flex-direction: row;
+		width: 70%;		
+	}
+	
+	/* header */
+	
+	header {
+			height: 600px;
+			height: 60vh;
+			justify-content: center;		
+			
+			padding: 20px 300px;
+	}	
+	
+	/* Social icons */
+	.facebook {
+	padding-left: 200px;
+	padding-right: 10px;
+	}
+
+	/* About */
+	
+	#about {
+		height: 250px;
+		height: 60vh;
+		justify-content: center;
+		min-height: 250px;
+	}
+
+	#about h2 {	
+		padding-bottom: 20px;
+	^}
+	
+	/* Services	*/
+	
+	#services {
+		flex-direction: row;
+		flex-wrap: wrap;
+		align-items: flex-start;
+		max-width: 1000px;
+		margin: 0 auto;
+		border-bottom: 1px solid #4d4d4d;
+		padding-bottom: 50px;
+		margin-top: 10px;
+	}
+	
+	#services h2 {
+		text-align: center;
+		width: 100%;	
+		padding: 20px 0;
+	}
+
+	#services h3 {
+			padding-top: 10px;
+			padding-bottom: 20px;
+	}
+	
+	#services div {
+		flex-grow: 1;
+		flex-basis: 150px;
+		padding: 0 10px;
+	}
+	
+	/* Portfolio */
+	
+	#portfolio {
+		flex-direction: row;
+		flex-wrap: wrap;
+		padding-top: 50px;
+		margin: auto;
+		max-width: 1000px;
+		padding: 30px 20px;
+		margin-top: 10px;
+	}
+
+	#portfolio h2 {
+		width: 100%;
+		text-align: center;
+	}
+	
+	#portfolio img {
+		width: 33.3333333333%;
+	}
+	
+	#contact {
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-around;
+		max-width: 500px;
+		margin: 0 auto;
+		padding-top: 50px;
+		padding-bottom: 40px;
+	}
+	
+	#contact h2,
+	#contact p,
+	#contact p a {
+		width: 100%;
+		color: #4d4d4d;
+	}
+
+	#contact p a:hover {
+		color: #e6e600;
+	}
+	
+	.google-maps iframe {
+		width: 600px;
+		height: 450px;
+	}	
+	
+	.footer-link:hover {
+		color: #e6e600;		
+	}
+
+}
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.row {
+  margin: 8px 16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 35%;
+  min-width: 450px;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 0px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+.container {
+  position: relative;
+
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1; 
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 14px;
+  padding: 20px;
+  text-align: center;
+}
+
+.overlay h3 {
+	font-size: 20px;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+/* Scroll To Top Button */
+#myBtn {
+	display: none;
+	position: fixed;
+	bottom: 20px;
+	right: 10px;
+	z-index: 99;
+	font-size: 18px;
+	border: none;
+	outline: none;
+	background-color: #838383;
+	color: white;
+	cursor: pointer;
+	padding: 15px 20px;
+	border-radius: 3px;
+}
+
+#myBtn:hover {
+	background-color: #9C9C9C;
+}
