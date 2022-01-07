@@ -1,5 +1,9 @@
 # HTML5 and CSS3 Responsive Layouts
 
+View Live Demo (): [HTML5 CSS3 Responsive Layout - 1] (https://rodrigocorrea.me/HTML5 CSS3 Responsive Layout - 1/) 
+
+<a href="https://rodrigocorrea.me/HTML5 CSS3 Responsive Layout - 1/">HTML5 CSS3 Responsive Layout - 1</a>
+
 **Related URL(s):**
 
 W3Schools Online Web Tutorials<br>
