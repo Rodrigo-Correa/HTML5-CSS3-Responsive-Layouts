@@ -2,8 +2,6 @@
 
 **View Live Demo:** <a href="https://rodrigocorrea.me/HTML5 CSS3 Responsive Layout - 2/">HTML5 CSS3 Responsive Layout - 2</a>
 
-<p>Open link in a new window or tab: <a href="https://www.w3schools.com" target="_blank">Visit W3Schools!</a></p>
-
 **Related URL(s):**
 
 W3Schools Online Web Tutorials<br>
