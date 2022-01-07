@@ -1,7 +1,5 @@
 # HTML5 and CSS3 Responsive Layouts
 
-**View Live Demo:** <a href="https://rodrigocorrea.me/HTML5 CSS3 Responsive Layout - 4/">HTML5 CSS3 Responsive Layout - 4</a>
-
 **View Live Demo:** <a href="https://rodrigocorrea.me/HTML5 CSS3 Responsive Layout - 3/">HTML5 CSS3 Responsive Layout - 3</a>
 
 **Related URL(s):**
